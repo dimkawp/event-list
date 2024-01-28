@@ -2,8 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## NODE v 20.11.0
-## NPM v 10.3.10
+#### NODE v 20.11.0
+#### NPM v 10.3.10
 
 Setup:
 ### `npm install`
@@ -20,3 +20,5 @@ In the project directory, you can run:
 Впровадження можливості створення, редагування, видалення та відстеження статусу завдань.
 Інтеграція календаря для планування завдань.
 Взаємодія з REST API для обміну даними. 
+
+## [DEMO on Heroku](https://demo-event-list-2ca2081d3427.herokuapp.com).
