@@ -1,0 +1,13 @@
+.event-list {
+    .ant-list {
+        min-height: 50%;
+    }
+    .ant-list-item {
+        column-gap: 10px;
+    }
+
+    .ant-tag {
+        min-width: 100px;
+        text-align: center;
+    }
+}

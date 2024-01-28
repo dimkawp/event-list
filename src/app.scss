@@ -1,0 +1,48 @@
+.main {
+  min-height: 100vh;
+  overflow: auto;
+}
+
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  animation: backflow 16s infinite;
+  
+  header {
+    display: flex;
+  }
+}
+
+.event-nav {
+  padding: 10px 0;
+  width: 80vw;
+  display: flex;
+  justify-content: flex-end;
+  column-gap: 10px;
+}
+
+.event-section {
+  margin: 10px;
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  
+  .ant-list {
+    width: 80vw; 
+  }
+
+  background: white;
+  box-shadow: -1px 1px 50px 4px rgba(181,170,158,1);
+}
+
+@keyframes backflow{
+  0%  { background:#cfdadf; }
+  20% { background:#e6d6df; }
+  40% { background:#c0b2ab; }
+  60% { background:#ceccc1; }
+  80% { background:#bed6c0; }
+  100%{ background:#bac7ce; }
+}
